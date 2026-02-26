@@ -1,0 +1,34 @@
+:host {
+    display: flex;
+    justify-content: center;
+}
+
+.weather-card {
+    margin-top: 30px;
+    min-width: 360px;
+    padding: 20px;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.weather-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.weather-row:last-child {
+    border-bottom: none;
+}
+
+.label {
+    color: #666;
+    font-size: 14px;
+}
+
+.value {
+    font-weight: 600;
+    font-size: 14px;
+}
