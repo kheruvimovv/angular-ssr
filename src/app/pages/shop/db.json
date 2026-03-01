@@ -1,0 +1,88 @@
+{
+    "items": [
+        {
+            "id": "1",
+            "title": "Wireless Headphones Pro",
+            "description": "High-quality wireless headphones with active noise cancellation.",
+            "imgUrl": "https://images.unsplash.com/photo-1609081219090-a6d81d3085bf?q=80&w=1926&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "cost": 199
+        },
+        {
+            "id": "2",
+            "title": "Smart Watch X",
+            "description": "Modern smart watch with health tracking and AMOLED display.",
+            "imgUrl": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "cost": 249
+        },
+        {
+            "id": "3",
+            "title": "Mechanical Keyboard RGB",
+            "description": "Mechanical keyboard with customizable RGB lighting.",
+            "imgUrl": "https://images.unsplash.com/photo-1595225386386-79c3543adbd9?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "cost": 129
+        },
+        {
+            "id": "4",
+            "title": "4K Ultra HD Monitor",
+            "description": "27-inch 4K monitor with HDR support.",
+            "imgUrl": "https://plus.unsplash.com/premium_photo-1724092241795-3d3c7ce5b25a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "cost": 399
+        },
+        {
+            "id": "5",
+            "title": "Gaming Mouse Elite",
+            "description": "Ergonomic gaming mouse with adjustable DPI.",
+            "imgUrl": "https://images.unsplash.com/photo-1632160872021-7e65d76ad849?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "cost": 79
+        },
+        {
+            "id": "6",
+            "title": "Laptop Pro 14",
+            "description": "Lightweight laptop with powerful performance.",
+            "imgUrl": "https://plus.unsplash.com/premium_photo-1754404025529-8961df8c7380?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "cost": 1299
+        },
+        {
+            "id": "7",
+            "title": "Bluetooth Speaker",
+            "description": "Portable Bluetooth speaker with deep bass.",
+            "imgUrl": "https://images.unsplash.com/photo-1582978571763-2d039e56f0c3?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "cost": 149
+        },
+        {
+            "id": "8",
+            "title": "Tablet Air",
+            "description": "Slim tablet with high-resolution display.",
+            "imgUrl": "https://images.unsplash.com/photo-1691580438368-a21706a4058a?q=80&w=830&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "cost": 599
+        },
+        {
+            "id": "9",
+            "title": "Noise Cancelling Earbuds",
+            "description": "Compact earbuds with active noise cancellation.",
+            "imgUrl": "https://plus.unsplash.com/premium_photo-1682096492098-8745454126cf?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "cost": 179
+        },
+        {
+            "id": "10",
+            "title": "UltraWide Monitor 34\"",
+            "description": "34-inch ultrawide monitor for productivity.",
+            "imgUrl": "https://images.unsplash.com/photo-1527800792452-506aacb2101f?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "cost": 699
+        },
+        {
+            "id": "11",
+            "title": "Gaming Chair Pro",
+            "description": "Comfortable gaming chair with lumbar support.",
+            "imgUrl": "https://images.unsplash.com/photo-1636487658609-28282bb5a3a0?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "cost": 299
+        },
+        {
+            "id": "12",
+            "title": "External SSD 1TB",
+            "description": "High-speed external SSD drive.",
+            "imgUrl": "https://plus.unsplash.com/premium_photo-1721133260774-84f57d69cb82?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "cost": 159
+        }
+    ]
+}

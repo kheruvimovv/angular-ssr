@@ -1,39 +1,42 @@
 {
-  "name": "dummy",
-  "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "serve:ssr:dummy": "node dist/dummy/server/server.mjs"
-  },
-  "private": true,
-  "packageManager": "npm@11.7.0",
-  "dependencies": {
-    "@angular/cdk": "~21.1.2",
-    "@angular/common": "^21.1.0",
-    "@angular/compiler": "^21.1.0",
-    "@angular/core": "^21.1.0",
-    "@angular/forms": "^21.1.0",
-    "@angular/material": "~21.1.2",
-    "@angular/platform-browser": "^21.1.0",
-    "@angular/platform-server": "^21.1.0",
-    "@angular/router": "^21.1.0",
-    "@angular/ssr": "^21.1.1",
-    "express": "^5.1.0",
-    "openmeteo": "^1.2.3",
-    "rxjs": "~7.8.0",
-    "tslib": "^2.3.0"
-  },
-  "devDependencies": {
-    "@angular/build": "^21.1.1",
-    "@angular/cli": "^21.1.1",
-    "@angular/compiler-cli": "^21.1.0",
-    "@angular/material": "^21.1.2",
-    "@types/express": "^5.0.1",
-    "@types/node": "^20.17.19",
-    "jsdom": "^27.1.0",
-    "typescript": "~5.9.2",
-    "vitest": "^4.0.8"
-  }
+    "name": "dummy",
+    "version": "0.0.0",
+    "scripts": {
+        "ng": "ng",
+        "start": "ng serve",
+        "build": "ng build",
+        "serve:ssr:dummy": "node dist/dummy/server/server.mjs",
+        "json-server": "json-server --watch src/app/pages/shop/db.json --port 3000 --delay 100",
+        "lint": "ng lint"
+    },
+    "private": true,
+    "packageManager": "npm@11.7.0",
+    "dependencies": {
+        "@angular/common": "^21.1.0",
+        "@angular/compiler": "^21.1.0",
+        "@angular/core": "^21.1.0",
+        "@angular/forms": "^21.1.0",
+        "@angular/platform-browser": "^21.1.0",
+        "@angular/platform-server": "^21.1.0",
+        "@angular/router": "^21.1.0",
+        "@angular/ssr": "^21.1.1",
+        "express": "^5.1.0",
+        "json-server": "^0.17.4",
+        "rxjs": "~7.8.0",
+        "tslib": "^2.3.0"
+    },
+    "devDependencies": {
+        "@angular/build": "^21.1.1",
+        "@angular/cli": "^21.1.1",
+        "@angular/compiler-cli": "^21.1.0",
+        "@angular/material": "^21.1.2",
+        "@types/express": "^5.0.1",
+        "@types/node": "^20.17.19",
+        "angular-eslint": "21.2.0",
+        "eslint": "^9.39.2",
+        "jsdom": "^27.1.0",
+        "typescript": "~5.9.2",
+        "typescript-eslint": "8.50.1",
+        "vitest": "^4.0.8"
+    }
 }

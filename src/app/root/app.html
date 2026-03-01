@@ -10,7 +10,7 @@
                     <a
                         routerLinkActive="active-a"
                         [routerLink]="item.link"
-                        [routerLinkActiveOptions]="{ exact: true }"
+                        [routerLinkActiveOptions]="{ exact: item.exact }"
                     >
                         {{ item.label }}
                     </a>
@@ -20,4 +20,6 @@
     </div>
 </nav>
 
-<router-outlet></router-outlet>
+<div class="overflow-y-scroll">
+    <router-outlet></router-outlet>
+</div>
