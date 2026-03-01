@@ -7,7 +7,8 @@
         "build": "ng build",
         "serve:ssr:dummy": "node dist/dummy/server/server.mjs",
         "json-server": "json-server --watch src/app/pages/shop/db.json --port 3000 --delay 100",
-        "lint": "ng lint"
+        "lint": "ng lint",
+        "start:all": "concurrently \"npm run serve:ssr:dummy\" \"npm run json-server\""
     },
     "private": true,
     "packageManager": "npm@11.7.0",
@@ -20,7 +21,8 @@
         "@angular/platform-server": "^21.1.0",
         "@angular/router": "^21.1.0",
         "@angular/ssr": "^21.1.1",
-        "express": "^5.1.0",
+        "express": "^5.2.1",
+        "http-proxy-middleware": "^3.0.5",
         "json-server": "^0.17.4",
         "rxjs": "~7.8.0",
         "tslib": "^2.3.0"

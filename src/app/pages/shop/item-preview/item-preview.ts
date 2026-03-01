@@ -36,6 +36,12 @@ export class ItemPreview {
                         content: item.description,
                     },
                 );
+                this._meta.updateTag(
+                    {
+                        property: 'og:image',
+                        content: item.imgUrl,
+                    },
+                );
             }),
         );
 }

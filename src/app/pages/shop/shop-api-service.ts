@@ -8,7 +8,7 @@ import { IItem } from './item-interface';
     providedIn: 'root',
 })
 export class ShopApiService {
-    private readonly _baseUrl = 'http://localhost:3000/items';
+    private readonly _baseUrl = 'api/items';
     private readonly _http = inject(HttpClient);
 
     public getItems(): Observable<IItem[]> {

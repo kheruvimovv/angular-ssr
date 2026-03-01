@@ -5,6 +5,7 @@ import {
     writeResponseToNodeResponse,
 } from '@angular/ssr/node';
 import express from 'express';
+import { createProxyMiddleware } from 'http-proxy-middleware';
 import { join } from 'node:path';
 
 const browserDistFolder = join(import.meta.dirname, '../browser');
@@ -32,6 +33,17 @@ app.use(
         index: false,
         redirect: false,
     }),
+);
+
+app.use(
+    '/api',
+    createProxyMiddleware({
+        target: 'http://localhost:3000',
+        changeOrigin: true,
+        pathRewrite: {
+            '^/api': '', // убираем /api перед отправкой в json-server
+        },
+    })
 );
 
 /**
