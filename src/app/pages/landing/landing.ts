@@ -29,12 +29,12 @@ export class Landing implements AfterViewInit {
 
                 const element = this._hostRef.nativeElement.querySelector('#' + fragment);
 
-                if (element) {
-                    this._hostRef.nativeElement.scrollTo({
-                        top: (element as HTMLElement).offsetTop,
+                setTimeout(() => {
+                    element?.scrollIntoView({
                         behavior: 'smooth',
+                        block: 'start',
                     });
-                }
+                });
             });
     }
 }
