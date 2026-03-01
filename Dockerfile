@@ -10,7 +10,7 @@ COPY package*.json ./
 # Install dependencies
 RUN npm ci
 
-# Install concurrently globally (или можно как devDependency)
+# Install concurrently globally
 RUN npm install -g concurrently
 
 # Copy source code
@@ -24,4 +24,4 @@ EXPOSE 4000
 EXPOSE 3000
 
 # Start both servers
-CMD ["npm", "run", "start:all"]
+CMD ["npm", "run", "start-prod:all"]
